@@ -1,0 +1,42 @@
+{%- if site.data.video_media -%}
+{%- assign vm_entries = site.data.video_media.pages[page.url] -%}
+{%- if vm_entries and vm_entries.size > 0 -%}
+<section class="video-media" aria-labelledby="video-media-heading">
+  <h2 id="video-media-heading">{{ ui.video_media_heading | default: 'Video' }}</h2>
+  {%- for vm in vm_entries -%}
+  {%- if vm.provider == 'youtube' -%}
+  {%- assign vm_embed = 'https://www.youtube-nocookie.com/embed/' | append: vm.id -%}
+  {%- elsif vm.provider == 'vimeo' -%}
+  {%- assign vm_embed = 'https://player.vimeo.com/video/' | append: vm.id -%}
+  {%- else -%}
+  {%- assign vm_embed = '' -%}
+  {%- endif -%}
+  {%- if vm_embed != '' %}
+  <figure class="video-media-item">
+    <iframe class="video-media-embed" src="{{ vm_embed | escape }}" title="{{ vm.title | escape }}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <figcaption class="video-media-caption">{{ vm.title | escape }}</figcaption>
+  </figure>
+  {%- endif -%}
+  {%- endfor -%}
+  <script type="application/ld+json">
+  [
+  {%- assign vm_first = true -%}
+  {%- for vm in vm_entries -%}
+  {%- if vm.provider == 'youtube' -%}
+  {%- assign vm_embed = 'https://www.youtube-nocookie.com/embed/' | append: vm.id -%}
+  {%- elsif vm.provider == 'vimeo' -%}
+  {%- assign vm_embed = 'https://player.vimeo.com/video/' | append: vm.id -%}
+  {%- else -%}
+  {%- assign vm_embed = '' -%}
+  {%- endif -%}
+  {%- if vm_embed != '' -%}
+  {%- unless vm_first -%},{%- endunless -%}
+  {"@context":"https://schema.org","@type":"VideoObject","name":{{ vm.title | jsonify }},"embedUrl":{{ vm_embed | jsonify }}{% if vm.description %},"description":{{ vm.description | jsonify }}{% endif %}{% if vm.upload_date %},"uploadDate":"{{ vm.upload_date }}"{% endif %}{% if vm.duration %},"duration":"{{ vm.duration }}"{% endif %}{% if vm.thumbnail_url %},"thumbnailUrl":{{ vm.thumbnail_url | jsonify }}{% endif %}}
+  {%- assign vm_first = false -%}
+  {%- endif -%}
+  {%- endfor -%}
+  ]
+  </script>
+</section>
+{%- endif -%}
+{%- endif -%}

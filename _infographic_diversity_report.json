@@ -1,0 +1,299 @@
+{
+  "generated_at_utc": "2026-10-27T11:46:23.369577Z",
+  "mode": "warn_only",
+  "summary": {
+    "pages_with_stage2_metadata": 12,
+    "pages_review_recommended": 0,
+    "warning_reason_counts": {}
+  },
+  "pages": [
+    {
+      "basename": "AI_data_centre_elect_13a926",
+      "title": "Can Power Grids Keep Up With AI Growth?",
+      "infographic_count": 3,
+      "templates": [
+        "timeline_chain",
+        "versus",
+        "cards_grid"
+      ],
+      "roles": [
+        "chronology",
+        "comparison",
+        "summary"
+      ],
+      "titles": [
+        "Global Data Centre Electricity Projections",
+        "AI Computing Efficiency vs Demand",
+        "Grid Constraints for AI Expansion"
+      ],
+      "role_diversity_count": 3,
+      "max_title_similarity": 0.125,
+      "review_recommended": false,
+      "warning_reasons": []
+    },
+    {
+      "basename": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+      "title": "Why Cooling AI Data Centres Takes So Much Power",
+      "infographic_count": 3,
+      "templates": [
+        "quadrant",
+        "tug_of_war",
+        "diverging_bars"
+      ],
+      "roles": [
+        "comparison",
+        "other",
+        "data"
+      ],
+      "titles": [
+        "Cooling Methods for AI Data Centres",
+        "Data Centre Efficiency Metrics Hierarchy",
+        "Cooling Trade offs in AI Infrastructure"
+      ],
+      "role_diversity_count": 2,
+      "max_title_similarity": 0.25,
+      "review_recommended": false,
+      "warning_reasons": []
+    },
+    {
+      "basename": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_direct_chip_cooling_ce5eff",
+      "title": "Does Liquid Cooling Really Make AI Data Centres Cheaper?",
+      "infographic_count": 3,
+      "templates": [
+        "process_steps",
+        "myth_facts",
+        "rank_podium"
+      ],
+      "roles": [
+        "process",
+        "comparison",
+        "data"
+      ],
+      "titles": [
+        "Direct to Chip Heat Removal Process",
+        "Air Cooling vs. Direct to Chip Liquid",
+        "Liquid Cooling Efficiency Metrics"
+      ],
+      "role_diversity_count": 3,
+      "max_title_similarity": 0.25,
+      "review_recommended": false,
+      "warning_reasons": []
+    },
+    {
+      "basename": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_dry_vs_evaporative_c_220aeb",
+      "title": "Can AI Data Centres Save Water Without Using More Electricity?",
+      "infographic_count": 3,
+      "templates": [
+        "quadrant",
+        "timeline_horizon",
+        "tug_of_war"
+      ],
+      "roles": [
+        "comparison",
+        "chronology",
+        "other"
+      ],
+      "titles": [
+        "Cooling System Trade offs in Data Centres",
+        "Evaporative Cooling Water Lifecycle",
+        "Phoenix Data Centre Efficiency Metrics"
+      ],
+      "role_diversity_count": 2,
+      "max_title_similarity": 0.111,
+      "review_recommended": false,
+      "warning_reasons": []
+    },
+    {
+      "basename": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e",
+      "title": "Could AI Data Centres Push Up Electricity Bills?",
+      "infographic_count": 3,
+      "templates": [
+        "structure_anatomy",
+        "fact_box_sidebar",
+        "timeline_history"
+      ],
+      "roles": [
+        "taxonomy",
+        "summary",
+        "chronology"
+      ],
+      "titles": [
+        "AI Data Centre Infrastructure Components",
+        "Cost Allocation Models for AI Power",
+        "Virginia and UK Grid Impact Data"
+      ],
+      "role_diversity_count": 3,
+      "max_title_similarity": 0.111,
+      "review_recommended": false,
+      "warning_reasons": []
+    },
+    {
+      "basename": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_ai_grid_costs_househ_ab353b",
+      "title": "Are Households Paying for AI Data Centre Grid Upgrades?",
+      "infographic_count": 3,
+      "templates": [
+        "timeline_snake",
+        "comparison_columns",
+        "tree_map"
+      ],
+      "roles": [
+        "chronology",
+        "comparison",
+        "taxonomy"
+      ],
+      "titles": [
+        "How Data Centre Demand Reaches Household Bills",
+        "Dedicated Assets vs Shared Network Reinforcement",
+        "Factors Influencing Data Centre Grid Costs"
+      ],
+      "role_diversity_count": 3,
+      "max_title_similarity": 0.182,
+      "review_recommended": false,
+      "warning_reasons": []
+    },
+    {
+      "basename": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+      "title": "Where Is AI Putting Power Grids Under Pressure?",
+      "infographic_count": 3,
+      "templates": [
+        "process_steps",
+        "myth_facts",
+        "tree_roots"
+      ],
+      "roles": [
+        "process",
+        "comparison",
+        "taxonomy"
+      ],
+      "titles": [
+        "Ireland Data Centre Electricity Growth",
+        "Grid Constraints vs Data Centre Speed",
+        "Physical Bottlenecks in AI Infrastructure"
+      ],
+      "role_diversity_count": 3,
+      "max_title_similarity": 0.222,
+      "review_recommended": false,
+      "warning_reasons": []
+    },
+    {
+      "basename": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_dublin_data_centre_g_c69adf",
+      "title": "Why Dublin's Data Centres Are Straining the Local Grid",
+      "infographic_count": 3,
+      "templates": [
+        "process_steps",
+        "versus",
+        "hub_ring"
+      ],
+      "roles": [
+        "process",
+        "comparison",
+        "other"
+      ],
+      "titles": [
+        "Dublin Data Centre Connection Evolution",
+        "Castlebaggot Substation Capacity Conflict",
+        "Dublin Grid Constraint Bottlenecks"
+      ],
+      "role_diversity_count": 2,
+      "max_title_similarity": 0.125,
+      "review_recommended": false,
+      "warning_reasons": []
+    },
+    {
+      "basename": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_ireland_data_centre_3259ad",
+      "title": "Must Ireland's Data Centres Pay for Their Own Power?",
+      "infographic_count": 3,
+      "templates": [
+        "process_chevrons",
+        "versus",
+        "pyramid_levels"
+      ],
+      "roles": [
+        "process",
+        "comparison",
+        "taxonomy"
+      ],
+      "titles": [
+        "Ireland Data Centre Connection Process",
+        "Data Centre Capacity Requirements by Size",
+        "Ireland Data Centre Electricity Demand"
+      ],
+      "role_diversity_count": 3,
+      "max_title_similarity": 0.429,
+      "review_recommended": false,
+      "warning_reasons": []
+    },
+    {
+      "basename": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+      "title": "How Much Electricity Does Running AI Actually Use?",
+      "infographic_count": 3,
+      "templates": [
+        "comparison_columns",
+        "grid_stats",
+        "list_vertical"
+      ],
+      "roles": [
+        "comparison",
+        "other",
+        "summary"
+      ],
+      "titles": [
+        "AI Training vs Inference Electricity Patterns",
+        "Google Gemini Electricity Consumption Metrics",
+        "Factors Influencing AI Electricity Demand"
+      ],
+      "role_diversity_count": 2,
+      "max_title_similarity": 0.222,
+      "review_recommended": false,
+      "warning_reasons": []
+    },
+    {
+      "basename": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_chatbot_query_ele_3717cc",
+      "title": "How Much Electricity Does One AI Chatbot Question Use?",
+      "infographic_count": 3,
+      "templates": [
+        "pyramid_levels",
+        "grid_stats",
+        "venn"
+      ],
+      "roles": [
+        "taxonomy",
+        "other",
+        "comparison"
+      ],
+      "titles": [
+        "Google Gemini Electricity Accounting",
+        "AI Query Energy Consumption Metrics",
+        "Factors Influencing AI Energy Demand"
+      ],
+      "role_diversity_count": 2,
+      "max_title_similarity": 0.25,
+      "review_recommended": false,
+      "warning_reasons": []
+    },
+    {
+      "basename": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_model_training_el_6f5c89",
+      "title": "How Much Power Does Training a Large AI Model Need?",
+      "infographic_count": 3,
+      "templates": [
+        "process_steps",
+        "rank_podium",
+        "myth_facts"
+      ],
+      "roles": [
+        "process",
+        "data",
+        "comparison"
+      ],
+      "titles": [
+        "AI Model Development Energy Lifecycle",
+        "Training Electricity Consumption Metrics",
+        "AI Training Power Trade offs"
+      ],
+      "role_diversity_count": 3,
+      "max_title_similarity": 0.125,
+      "review_recommended": false,
+      "warning_reasons": []
+    }
+  ]
+}

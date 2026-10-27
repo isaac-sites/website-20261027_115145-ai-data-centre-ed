@@ -1,0 +1,228 @@
+{
+  "generated_at": "2026-10-27T11:46:25",
+  "passed": true,
+  "baseline": {
+    "article_pages": 17,
+    "amazon_specific_pages": 12,
+    "amazon_fallback_pages": 0,
+    "ebay_specific_pages": 0,
+    "ebay_fallback_pages": 0,
+    "pages": {
+      "AI_data_centre_elect_13a926": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_direct_chip_cooling_ce5eff": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_dry_vs_evaporative_c_220aeb": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_index": {
+        "amazon_specific": false,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_ai_grid_costs_househ_ab353b": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_index": {
+        "amazon_specific": false,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_dublin_data_centre_g_c69adf": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_index": {
+        "amazon_specific": false,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_ireland_data_centre_3259ad": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_training_inferenc_88940a": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_chatbot_query_ele_3717cc": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_model_training_el_6f5c89": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_index": {
+        "amazon_specific": false,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_index": {
+        "amazon_specific": false,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      }
+    }
+  },
+  "current": {
+    "article_pages": 17,
+    "amazon_specific_pages": 12,
+    "amazon_fallback_pages": 0,
+    "ebay_specific_pages": 0,
+    "ebay_fallback_pages": 0,
+    "pages": {
+      "AI_data_centre_elect_13a926": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_direct_chip_cooling_ce5eff": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_dry_vs_evaporative_c_220aeb": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_index": {
+        "amazon_specific": false,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_ai_grid_costs_househ_ab353b": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_index": {
+        "amazon_specific": false,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_dublin_data_centre_g_c69adf": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_index": {
+        "amazon_specific": false,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_ireland_data_centre_3259ad": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_training_inferenc_88940a": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_chatbot_query_ele_3717cc": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_model_training_el_6f5c89": {
+        "amazon_specific": true,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_index": {
+        "amazon_specific": false,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      },
+      "AI_data_centre_elect_13a926_index": {
+        "amazon_specific": false,
+        "amazon_fallback": false,
+        "ebay_specific": false,
+        "ebay_fallback": false
+      }
+    }
+  },
+  "shared_pages_compared": 17,
+  "regressions": []
+}

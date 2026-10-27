@@ -1,0 +1,31 @@
+{
+ "schema_version": 1,
+ "constraint": "TITLE_SERP_BOUND_V1",
+ "bound": 60,
+ "audited": 17,
+ "violations": 1,
+ "findings": [
+  {
+   "schema_version": 1,
+   "constraint": "TITLE_SERP_BOUND_V1",
+   "page_id": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_dry_vs_evaporative_c_220aeb",
+   "title": "Can AI Data Centres Save Water Without Using More Electricity?",
+   "char_count": 62,
+   "bound": 60,
+   "derived_serp_title": "Can AI Data Centres Save Water Without Using More"
+  }
+ ],
+ "grants_authority": false,
+ "enforced_findings": [
+  {
+   "schema_version": 1,
+   "constraint": "TITLE_SERP_BOUND_V1",
+   "page_id": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_dry_vs_evaporative_c_220aeb",
+   "title": "Can AI Data Centres Save Water Without Using More Electricity?",
+   "char_count": 62,
+   "bound": 60,
+   "derived_serp_title": "Can AI Data Centres Save Water Without Using More",
+   "seo_title_set": true
+  }
+ ]
+}

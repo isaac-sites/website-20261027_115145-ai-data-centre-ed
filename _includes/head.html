@@ -1,0 +1,148 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  {% if page.robots %}
+  <meta name="robots" content="{{ page.robots | escape }}">
+  {% endif %}
+
+  {% if page.home %}
+  <title>{{ site.brand_name }} | {{ site.title }}</title>
+  {% seo title=false %}
+  {% else %}
+  {% seo %}
+  {% endif %}
+  {% assign social_image = page.header.og_image | default: page.image %}
+  {% if social_image %}
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{ page.social_image_alt | default: page.title | escape }}">
+  <meta name="twitter:image:alt" content="{{ page.social_image_alt | default: page.title | escape }}">
+  {% elsif site.og_image_default %}
+  <meta property="og:image" content="{{ site.og_image_default | relative_url }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{ site.og_image_alt | default: site.title | escape }}">
+  <meta name="twitter:image:alt" content="{{ site.og_image_alt | default: site.title | escape }}">
+  {% endif %}
+  {%- if site.data.video_media.pages[page.url] -%}
+  {%- for vm in site.data.video_media.pages[page.url] -%}
+  {%- if vm.provider == 'youtube' -%}
+  <meta property="og:video" content="https://www.youtube-nocookie.com/embed/{{ vm.id | escape }}">
+  {%- elsif vm.provider == 'vimeo' -%}
+  <meta property="og:video" content="https://player.vimeo.com/video/{{ vm.id | escape }}">
+  {%- endif -%}
+  {%- endfor -%}
+  {%- endif %}
+  <script>
+    (function () {
+      var root = document.documentElement;
+      if (!root) {
+        return;
+      }
+
+      var mode = String(root.getAttribute("data-appearance-color-default") || "automatic").trim().toLowerCase();
+      if (mode !== "automatic" && mode !== "light" && mode !== "dark") {
+        mode = "automatic";
+      }
+
+      try {
+        var storedMode = window.localStorage.getItem("phoenix-color-mode");
+        if (!storedMode) {
+          var legacyTheme = window.localStorage.getItem("phoenix-theme");
+          if (legacyTheme === "light" || legacyTheme === "dark") {
+            storedMode = legacyTheme;
+          }
+        }
+        if (storedMode) {
+          var normalizedStoredMode = String(storedMode).trim().toLowerCase();
+          if (normalizedStoredMode === "automatic" || normalizedStoredMode === "light" || normalizedStoredMode === "dark") {
+            mode = normalizedStoredMode;
+          }
+        }
+      } catch (err) {
+        // Ignore storage read failures.
+      }
+
+      var prefersDark = false;
+      try {
+        prefersDark = Boolean(window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches);
+      } catch (err) {
+        // Ignore matchMedia failures.
+      }
+
+      var resolvedTheme = mode === "automatic" ? (prefersDark ? "dark" : "light") : mode;
+      root.setAttribute("data-color-mode", mode);
+      root.setAttribute("data-theme", resolvedTheme === "dark" ? "dark" : "light");
+    })();
+  </script>
+
+  <link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | relative_url }}">
+  <link rel="alternate icon" href="{{ '/favicon.svg' | relative_url }}">
+  {% if site.url %}
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title | xml_escape }}" href="{{ site.url }}{{ site.baseurl }}/feed.xml">
+  {% endif %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet">
+  <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}?v={{ site.ui_bundle_version | default: '1' | uri_escape }}"></script>
+  <script src="{{ '/assets/js/page-enhancements.js' | relative_url }}?v={{ site.ui_bundle_version | default: '1' | uri_escape }}" defer></script>
+  {% if page.home %}
+  <script src="{{ '/assets/js/page-home.js' | relative_url }}?v={{ site.ui_bundle_version | default: '1' | uri_escape }}" defer></script>
+  {% endif %}
+  {% if page.home or page.hierarchy_graph %}
+  <script src="{{ '/assets/js/page-hierarchy.js' | relative_url }}?v={{ site.ui_bundle_version | default: '1' | uri_escape }}" defer></script>
+  {% endif %}
+  {% unless page.home or page.search_page or page.tool_page %}
+  <script src="{{ '/assets/js/page-article.js' | relative_url }}?v={{ site.ui_bundle_version | default: '1' | uri_escape }}" defer></script>
+  {% endunless %}
+  {% if page.interactive_map %}
+  <script src="{{ '/assets/js/page-map.js' | relative_url }}?v={{ site.ui_bundle_version | default: '1' | uri_escape }}" defer></script>
+  {% endif %}
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.ui_bundle_version | default: '1' | uri_escape }}">
+  {% if site.data.site_integrations %}
+  <link rel="stylesheet" href="{{ '/assets/css/site-integrations.css' | relative_url }}?v={{ site.ui_bundle_version | default: '1' | uri_escape }}">
+  {% endif %}
+
+  <script src="{{ '/assets/js/consent-gate.js' | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/consent-embed.js' | relative_url }}" defer></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {dataLayer.push(arguments);}
+    gtag("consent", "default", {
+      "ad_storage": "denied",
+      "ad_user_data": "denied",
+      "ad_personalization": "denied",
+      "analytics_storage": "denied",
+      "wait_for_update": 500,
+      "region": ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "IS", "LI", "NO", "GB", "CH"]
+    
+    });
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-67VRCP5C49"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {dataLayer.push(arguments);}
+    gtag("js", new Date());
+    gtag("config", "G-67VRCP5C49", {"linker": {"domains": ["ifos.isaackoi.com", "kecksburg.isaackoi.com", "lego-antifragility.branchoria.com", "rendlesham.isaackoi.com", "sky-detectors.isaackoi.com", "spielberg.isaackoi.com", "uap-disclosure.isaackoi.com", "ufo-archives.isaackoi.com", "ufo-australia.isaackoi.com", "ufo-canada.isaackoi.com", "ufo-crashes.isaackoi.com", "ufo-france.isaackoi.com", "ufo-germany.isaackoi.com", "ufo-global.branchoria.com", "ufo-hackers.isaackoi.com", "ufo-italy.isaackoi.com", "ufo-noises.isaackoi.com", "ufo-prophecy.isaackoi.com"]}});
+  </script>
+  <script>
+    (function () {
+      document.addEventListener("click", function (event) {
+        var target = event.target;
+        var link = target && target.closest ? target.closest("a[href]") : null;
+        if (!link) return;
+        var href = link.getAttribute("href") || "";
+        if (!/^https?:/i.test(href)) return;
+        if (window.location && link.hostname === window.location.hostname) return;
+        gtag("event", "outbound_click", {
+          link_url: href,
+          link_domain: link.hostname,
+          link_classes: link.className || ""
+        });
+      });
+    })();
+  </script>
+
+</head>

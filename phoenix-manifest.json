@@ -1,0 +1,444 @@
+{
+  "schema_version": "1.2",
+  "site": {
+    "id": "ai-costs",
+    "identity_source": "site_id",
+    "network": "unassigned",
+    "title": "AI Power Demand",
+    "canonical_url": "https://ai-costs.isaackoi.com",
+    "description": "Practical guides on AI Power Demand, organized for fast browsing and comparison.",
+    "primary_focus_id": "ai",
+    "focus_ids": [
+      "ai",
+      "technology",
+      "science"
+    ],
+    "primary_topic_ids": [],
+    "primary_subject_ids": []
+  },
+  "release_id": "release-27bb389d07ee996acb2b",
+  "previous_release_id": "release-5bb455278c69c8d364e3",
+  "generated_at": "2026-10-27T11:46:22Z",
+  "entity_entrypoints": [],
+  "pages": [
+    {
+      "id": "ai-costs:page:c55143726ed551995c40dd4b",
+      "logical_id": "ai-data-centre-elect-13a926",
+      "identity_source": "article_manifest",
+      "canonical_url": "https://ai-costs.isaackoi.com/ai-data-centre-electricity-demand/",
+      "title": "Can Power Grids Keep Up With AI Growth?",
+      "summary": "Artificial intelligence (AI) is driving a rapid increase in data centre electricity demand. Training powerful AI models, running everyday AI services and cooling the computer chips behind them all require substantial amounts of electricity.",
+      "hierarchy": {
+        "level": 1,
+        "parent_id": null
+      },
+      "tags": [
+        "ai-data-centre-electricity-demand"
+      ],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:bbac6da3575d94a580cd6e1a0ad9d7f09d44f8b85fb47045e5e36c3628563ff5",
+      "reconciliation_fingerprint": "sha256:542c30a5612850398888e9b7aec3e389bb178e4e4794191033ea0560a7ad7a4c",
+      "updated_at": "2026-10-26 20:24:12"
+    },
+    {
+      "id": "ai-costs:page:6feef25aa7d65af63318f10c",
+      "logical_id": "ai-data-centre-elect-13a926-ai-data-centre-cooli-6a026b",
+      "identity_source": "article_manifest",
+      "canonical_url": "https://ai-costs.isaackoi.com/cooling-costs/",
+      "title": "Cooling Costs",
+      "summary": "Powerful AI chips generate concentrated heat, making cooling systems and supporting equipment increasingly important to data centre electricity use.",
+      "hierarchy": {
+        "level": 2,
+        "parent_id": "ai-costs:page:c55143726ed551995c40dd4b"
+      },
+      "tags": [
+        "ai-data-centre-electricity-demand",
+        "cooling-costs"
+      ],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:2438f0688eaf2492c8ea678ce22dad84cd13f87b056af2c020e1a3855707bdc4",
+      "reconciliation_fingerprint": "sha256:99a74504561a19eb6fb127ac4e203acb232cd5097b4c50cc229e30e57726792d",
+      "updated_at": "2026-10-26 20:24:24"
+    },
+    {
+      "id": "ai-costs:page:8d2d577ad0a5e2480ab5b033",
+      "logical_id": "ai-data-centre-elect-13a926-ai-data-centre-cooli-6a026b-direct-chip-cooling-ce5eff",
+      "identity_source": "article_manifest",
+      "canonical_url": "https://ai-costs.isaackoi.com/liquid-cooling-costs/",
+      "title": "Liquid Cooling Costs",
+      "summary": "Cooling AI processors with liquid can cut refrigeration costs, but pumps, pipework and higher server densities complicate the savings.",
+      "hierarchy": {
+        "level": 3,
+        "parent_id": "ai-costs:page:6feef25aa7d65af63318f10c"
+      },
+      "tags": [
+        "ai-data-centre-electricity-demand",
+        "cooling-costs",
+        "liquid-cooling-costs"
+      ],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:240a603b9a6447d4fe6289d25127524b68ffe2de4e48dd3631172ba6e93edbea",
+      "reconciliation_fingerprint": "sha256:70b1ddba0e7a4a08fab1c75c32a4cba0289b4743ba914f0d8a5b09574f8fb31e",
+      "updated_at": "2026-10-26 20:24:27"
+    },
+    {
+      "id": "ai-costs:page:70483626526cad9d088df2d9",
+      "logical_id": "ai-data-centre-elect-13a926-ai-data-centre-cooli-6a026b-dry-vs-evaporative-c-220aeb",
+      "identity_source": "article_manifest",
+      "canonical_url": "https://ai-costs.isaackoi.com/water-vs-power/",
+      "title": "Water vs Power",
+      "summary": "Using less water to cool AI data centres can increase electricity demand, especially when dry cooling systems face high outdoor temperatures.",
+      "hierarchy": {
+        "level": 3,
+        "parent_id": "ai-costs:page:6feef25aa7d65af63318f10c"
+      },
+      "tags": [
+        "ai-data-centre-electricity-demand",
+        "cooling-costs",
+        "water-vs-power"
+      ],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:46795cd7e1599ada8f4cb57fef596d9acbd117e9a3772cc3d0528860692aab24",
+      "reconciliation_fingerprint": "sha256:412ec79277a830d0548c3e76989ed9d6a7c3f5f490ca18a8960faed884cad4de",
+      "updated_at": "2026-10-26 20:24:27"
+    },
+    {
+      "id": "ai-costs:page:3a563eb1ac293eab831c2004",
+      "logical_id": "ai-data-centre-elect-13a926-ai-data-centre-cooli-6a026b:index",
+      "identity_source": "generated_parent_logical_id",
+      "canonical_url": "https://ai-costs.isaackoi.com/ai-data-centre-elect-13a926-ai-data/",
+      "title": "All Topics",
+      "summary": "Guide to sub-topic pages of Cooling Costs, covering Liquid Cooling Costs and Water vs Power.",
+      "hierarchy": {
+        "level": 3,
+        "parent_id": "ai-costs:page:6feef25aa7d65af63318f10c"
+      },
+      "tags": [],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:9121ebab134ead15f30c6a66c78d9d959531db740967ad6eb6a2ba1b52f4bc48",
+      "reconciliation_fingerprint": "sha256:93cbe51bf481a7fe38fe850c1bb9a563d5cd7a1f110a4553e37ae82497232a38",
+      "updated_at": "2026-10-27"
+    },
+    {
+      "id": "ai-costs:page:6574a596b366d4cea8a1b66e",
+      "logical_id": "ai-data-centre-elect-13a926-ai-electricity-costs-992c1e",
+      "identity_source": "article_manifest",
+      "canonical_url": "https://ai-costs.isaackoi.com/who-pays/",
+      "title": "Who Pays",
+      "summary": "Expanding AI data centres can require costly electricity infrastructure, raising questions about who funds upgrades and who bears the financial risks.",
+      "hierarchy": {
+        "level": 2,
+        "parent_id": "ai-costs:page:c55143726ed551995c40dd4b"
+      },
+      "tags": [
+        "ai-data-centre-electricity-demand",
+        "who-pays"
+      ],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:268350deba1995fef35dfa1af0934d48069a2cc6c7b4bf286ace7a4b77877c51",
+      "reconciliation_fingerprint": "sha256:219d825730ba03daade7a1d455b53ff0f60b2b0fefd25b9926b3fb117705a31f",
+      "updated_at": "2026-10-26 22:54:50"
+    },
+    {
+      "id": "ai-costs:page:10f006cbc9ef62d730b8cd45",
+      "logical_id": "ai-data-centre-elect-13a926-ai-electricity-costs-992c1e-ai-grid-costs-househ-ab353b",
+      "identity_source": "article_manifest",
+      "canonical_url": "https://ai-costs.isaackoi.com/household-grid-costs/",
+      "title": "Household Grid Costs",
+      "summary": "New grid infrastructure for AI data centres can raise household electricity bills when upgrade costs are shared across customers.",
+      "hierarchy": {
+        "level": 3,
+        "parent_id": "ai-costs:page:6574a596b366d4cea8a1b66e"
+      },
+      "tags": [
+        "ai-data-centre-electricity-demand",
+        "who-pays",
+        "household-grid-costs"
+      ],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:444a096b017cc18aac0cac9bdb041f4570319929dad57e0aedb58bfc616d0b48",
+      "reconciliation_fingerprint": "sha256:3016f99893a63cf94782a4051d907df406887320c110e898155040c706ba8d46",
+      "updated_at": "2026-10-26 22:55:08"
+    },
+    {
+      "id": "ai-costs:page:2620a2bf613dbdd411b7250d",
+      "logical_id": "ai-data-centre-elect-13a926-ai-electricity-costs-992c1e:index",
+      "identity_source": "generated_parent_logical_id",
+      "canonical_url": "https://ai-costs.isaackoi.com/ai-data-centre-elect-13a926-ai/",
+      "title": "All Topics",
+      "summary": "Guide to sub-topic pages of Who Pays, covering Household Grid Costs.",
+      "hierarchy": {
+        "level": 3,
+        "parent_id": "ai-costs:page:6574a596b366d4cea8a1b66e"
+      },
+      "tags": [],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:9cbe1356c9882b09febfc30939a8e9d867091d84a7485ea8a3e198c780d71604",
+      "reconciliation_fingerprint": "sha256:97020ab9ea8bb622827d1e5e3f2e9d95db50b815e9bafe004ba57d2aba35e949",
+      "updated_at": "2026-10-27"
+    },
+    {
+      "id": "ai-costs:page:daf299d126b5c90dddb2ed26",
+      "logical_id": "ai-data-centre-elect-13a926-ai-electricity-grid-c23fdb",
+      "identity_source": "article_manifest",
+      "canonical_url": "https://ai-costs.isaackoi.com/grid-pressure/",
+      "title": "Grid Pressure",
+      "summary": "Ireland and the United States show how concentrated data centre growth can strain regional electricity networks despite modest global demand shares.",
+      "hierarchy": {
+        "level": 2,
+        "parent_id": "ai-costs:page:c55143726ed551995c40dd4b"
+      },
+      "tags": [
+        "ai-data-centre-electricity-demand",
+        "grid-pressure"
+      ],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:0551681e45619f1b8901761fecc6196c3d326226d9e75845813672cd3feac34f",
+      "reconciliation_fingerprint": "sha256:011ae696ee246e5fd7300d0562ad29709b91693e1bcd2713b8b740e066acec7b",
+      "updated_at": "2026-10-26 20:24:29"
+    },
+    {
+      "id": "ai-costs:page:9fe98c68151ba17fea22a408",
+      "logical_id": "ai-data-centre-elect-13a926-ai-electricity-grid-c23fdb-dublin-data-centre-g-c69adf",
+      "identity_source": "article_manifest",
+      "canonical_url": "https://ai-costs.isaackoi.com/dublin-grid-pressure/",
+      "title": "Dublin Grid Pressure",
+      "summary": "Dublin's concentration of data centres is creating electricity bottlenecks that additional power generation elsewhere in Ireland cannot solve alone.",
+      "hierarchy": {
+        "level": 3,
+        "parent_id": "ai-costs:page:daf299d126b5c90dddb2ed26"
+      },
+      "tags": [
+        "ai-data-centre-electricity-demand",
+        "grid-pressure",
+        "dublin-grid-pressure"
+      ],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:4aac0c1b3d32ddf7c88cefcd80f12379f253d36371740eb283327a23026d9cac",
+      "reconciliation_fingerprint": "sha256:db0b27697c0f6edf3d981971212e1e7c7f36fea0b7cff372317f37c37008cbff",
+      "updated_at": "2026-10-26 20:24:30"
+    },
+    {
+      "id": "ai-costs:page:80757295a8bfb214caf5f239",
+      "logical_id": "ai-data-centre-elect-13a926-ai-electricity-grid-c23fdb:index",
+      "identity_source": "generated_parent_logical_id",
+      "canonical_url": "https://ai-costs.isaackoi.com/ai-data-centre-elect-13a926-ai-0a08e0/",
+      "title": "All Topics",
+      "summary": "Guide to sub-topic pages of Grid Pressure, covering Dublin Grid Pressure and Ireland s Power.",
+      "hierarchy": {
+        "level": 3,
+        "parent_id": "ai-costs:page:daf299d126b5c90dddb2ed26"
+      },
+      "tags": [],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:6fa912fd6d02c51bfbd34a28e1ca9181e57b07c3afb8a68e4a74ca7be8d099cf",
+      "reconciliation_fingerprint": "sha256:0392d458622d1143efb549c249463116c018253f5f281a66370512a61a28a319",
+      "updated_at": "2026-10-27",
+      "aliases": [
+        "https://ai-costs.isaackoi.com/ai-data-centre-elect-13a926-ai/"
+      ]
+    },
+    {
+      "id": "ai-costs:page:3185193689c51078ef5f8973",
+      "logical_id": "ai-data-centre-elect-13a926-ai-electricity-grid-c23fdb-ireland-data-centre-3259ad",
+      "identity_source": "article_manifest",
+      "canonical_url": "https://ai-costs.isaackoi.com/ireland-s-power/",
+      "title": "Ireland s Power",
+      "summary": "Ireland's new grid connection rules require larger data centres to support electricity supply and renewables, raising questions about costs and reliability.",
+      "hierarchy": {
+        "level": 3,
+        "parent_id": "ai-costs:page:daf299d126b5c90dddb2ed26"
+      },
+      "tags": [
+        "ai-data-centre-electricity-demand",
+        "grid-pressure",
+        "ireland-s-power"
+      ],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:345cecdac01d082b70d5efb4779649acd3c6d7d75d66c34bc35664d39191701a",
+      "reconciliation_fingerprint": "sha256:cac21e844310d4a1835b87825780f2025eec83069fd343d01bc56869b55195c5",
+      "updated_at": "2026-10-26 20:24:31"
+    },
+    {
+      "id": "ai-costs:page:3086d78db1079916f466e745",
+      "logical_id": "ai-data-centre-elect-13a926-ai-training-inferenc-88940a",
+      "identity_source": "article_manifest",
+      "canonical_url": "https://ai-costs.isaackoi.com/ai-energy-use/",
+      "title": "AI Energy Use",
+      "summary": "Training AI models requires powerful computing clusters, while billions of everyday AI requests can create substantial ongoing electricity demand.",
+      "hierarchy": {
+        "level": 2,
+        "parent_id": "ai-costs:page:c55143726ed551995c40dd4b"
+      },
+      "tags": [
+        "ai-data-centre-electricity-demand",
+        "ai-energy-use"
+      ],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:d520a318daa95c485adfe8275ef9af675ee4d3192e5df9ec571675c868ae954c",
+      "reconciliation_fingerprint": "sha256:b82ce7146b2d1de9347a5a67ac70bb4d704c0510705991075bc99c28cd0c7956",
+      "updated_at": "2026-10-26 20:24:15"
+    },
+    {
+      "id": "ai-costs:page:39c530929bcf0b01bbf06394",
+      "logical_id": "ai-data-centre-elect-13a926-ai-training-inferenc-88940a-ai-chatbot-query-ele-3717cc",
+      "identity_source": "article_manifest",
+      "canonical_url": "https://ai-costs.isaackoi.com/query-electricity/",
+      "title": "Query Electricity",
+      "summary": "Ordinary AI text queries can use less than one watt-hour, but complex reasoning, supporting equipment and billions of requests change the total.",
+      "hierarchy": {
+        "level": 3,
+        "parent_id": "ai-costs:page:3086d78db1079916f466e745"
+      },
+      "tags": [
+        "ai-data-centre-electricity-demand",
+        "ai-energy-use",
+        "query-electricity"
+      ],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:9b1e719be9a554f62208d2ca0dab34cead1918447bc2a0c75120b6b8cee3e827",
+      "reconciliation_fingerprint": "sha256:68f46ef681a13ae9e4e30d5e23cce4853b400047e30ca0125338c21ac3620ff8",
+      "updated_at": "2026-10-26 20:24:19"
+    },
+    {
+      "id": "ai-costs:page:62153b7965a2deb1d1d19dd9",
+      "logical_id": "ai-data-centre-elect-13a926-ai-training-inferenc-88940a-ai-model-training-el-6f5c89",
+      "identity_source": "article_manifest",
+      "canonical_url": "https://ai-costs.isaackoi.com/training-energy/",
+      "title": "Training Energy",
+      "summary": "A major AI training run can consume tens of gigawatt-hours, while experiments, chip utilisation and cooling add to its electricity footprint.",
+      "hierarchy": {
+        "level": 3,
+        "parent_id": "ai-costs:page:3086d78db1079916f466e745"
+      },
+      "tags": [
+        "ai-data-centre-electricity-demand",
+        "ai-energy-use",
+        "training-energy"
+      ],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:d4eba48d0c6616f43103128ae9c7b77257f4dc4dda1d84c2ce9387e78ede788d",
+      "reconciliation_fingerprint": "sha256:f5ee62afde027f8d63b3cc754e939952620ea14a6f89b25da073ea2d9a1af266",
+      "updated_at": "2026-10-26 20:24:17"
+    },
+    {
+      "id": "ai-costs:page:4928ce12b2676b9ff4b60ba7",
+      "logical_id": "ai-data-centre-elect-13a926-ai-training-inferenc-88940a:index",
+      "identity_source": "generated_parent_logical_id",
+      "canonical_url": "https://ai-costs.isaackoi.com/ai-data-centre-elect-13a926-ai-training/",
+      "title": "All Topics",
+      "summary": "Guide to sub-topic pages of AI Energy Use, covering Query Electricity and Training Energy.",
+      "hierarchy": {
+        "level": 3,
+        "parent_id": "ai-costs:page:3086d78db1079916f466e745"
+      },
+      "tags": [],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:e9f3170baa28983ec59b59e681a89e621ace4c4eb4416162f3c31b41ec4ebf76",
+      "reconciliation_fingerprint": "sha256:b3f370a483789b60554dba74a66339362b8521eb8aa59bad851d864cb63a04dc",
+      "updated_at": "2026-10-27"
+    },
+    {
+      "id": "ai-costs:page:3e4890f321e94814e65bf0ba",
+      "logical_id": "ai-data-centre-elect-13a926:index",
+      "identity_source": "generated_parent_logical_id",
+      "canonical_url": "https://ai-costs.isaackoi.com/ai-data-centre-elect-13a926-index/",
+      "title": "All Topics",
+      "summary": "Guide to sub-topic pages of AI data centre electricity demand, covering Cooling Costs, Who Pays and Grid Pressure and more.",
+      "hierarchy": {
+        "level": 2,
+        "parent_id": "ai-costs:page:c55143726ed551995c40dd4b"
+      },
+      "tags": [],
+      "entities": [],
+      "entity_ids": [],
+      "collection_ids": [],
+      "time_periods": [],
+      "topic_ids": [],
+      "geography_ids": [],
+      "content_fingerprint": "sha256:874277873291b4808f29c19ea802d9bb8dc1fa5499f5dc6422461a9377c57b0e",
+      "reconciliation_fingerprint": "sha256:b3bdf5b805a85f6534a527b4eb3ba477951347a98c307e3b5d1aa8e6a1dea73a",
+      "updated_at": "2026-10-27"
+    }
+  ]
+}

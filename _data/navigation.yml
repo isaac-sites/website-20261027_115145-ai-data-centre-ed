@@ -1,0 +1,57 @@
+sidebar_generated:
+- title: AI Power Demand
+  title_full: Can Power Grids Keep Up With AI Growth?
+  url: /ai-data-centre-electricity-demand/
+  children:
+  - title: AI Energy Use
+    title_full: How Much Electricity Does Running AI Actually Use? | AI Power Demand
+    url: /ai-energy-use/
+    children:
+    - title: Query Electricity
+      title_full: How Much Electricity Does One AI Chatbot Question Use? | AI Energy Use
+      url: /query-electricity/
+    - title: Training Energy
+      title_full: How Much Power Does Training a Large AI Model Need? | AI Energy Use
+      url: /training-energy/
+    - title: All Topics
+      title_full: 'AI Energy Use: All Topics'
+      url: /ai-data-centre-elect-13a926-ai-training/
+  - title: Cooling Costs
+    title_full: Why Cooling AI Data Centres Takes So Much Power | AI Power Demand
+    url: /cooling-costs/
+    children:
+    - title: Liquid Cooling Costs
+      title_full: Does Liquid Cooling Really Make AI Data Centres Cheaper? | Cooling Costs
+      url: /liquid-cooling-costs/
+    - title: Water vs Power
+      title_full: Can AI Data Centres Save Water Without Using More Electricity? | Cooling Costs
+      url: /water-vs-power/
+    - title: All Topics
+      title_full: 'Cooling Costs: All Topics'
+      url: /ai-data-centre-elect-13a926-ai-data/
+  - title: Grid Pressure
+    title_full: Where Is AI Putting Power Grids Under Pressure? | AI Power Demand
+    url: /grid-pressure/
+    children:
+    - title: Dublin Grid Pressure
+      title_full: Why Dublin's Data Centres Are Straining the Local Grid | Grid Pressure
+      url: /dublin-grid-pressure/
+    - title: Ireland s Power
+      title_full: Must Ireland's Data Centres Pay for Their Own Power? | Grid Pressure
+      url: /ireland-s-power/
+    - title: All Topics
+      title_full: 'Grid Pressure: All Topics'
+      url: /ai-data-centre-elect-13a926-ai-0a08e0/
+  - title: Who Pays
+    title_full: Could AI Data Centres Push Up Electricity Bills? | AI Power Demand
+    url: /who-pays/
+    children:
+    - title: Household Grid Costs
+      title_full: Are Households Paying for AI Data Centre Grid Upgrades? | Who Pays
+      url: /household-grid-costs/
+    - title: All Topics
+      title_full: 'Who Pays: All Topics'
+      url: /ai-data-centre-elect-13a926-ai/
+  - title: All Topics
+    title_full: 'AI data centre electricity demand: All Topics | AI Power Demand'
+    url: /ai-data-centre-elect-13a926-index/

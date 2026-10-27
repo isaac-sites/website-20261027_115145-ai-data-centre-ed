@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "groups": [],
+  "site_links": [
+    {
+      "label": "Explore LEGO Antifragility",
+      "url": "https://lego-antifragility.branchoria.com/",
+      "target_site_id": "lego-antifragility",
+      "target_title": "LEGO Antifragility",
+      "shared_focus_ids": []
+    }
+  ]
+}

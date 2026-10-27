@@ -1,0 +1,7 @@
+{% assign hub_url = site.phoenix_network_hub_url | default: "" %}
+{% if hub_url != "" %}
+{% assign hub_label = site.phoenix_network_hub_label | default: "Network hub" %}
+<nav class="network-hub-nav" aria-label="Network hub">
+  <a class="network-hub-nav-link" href="{{ hub_url | escape }}">{{ hub_label | escape }}</a>
+</nav>
+{% endif %}

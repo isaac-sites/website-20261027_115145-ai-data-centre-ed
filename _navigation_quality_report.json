@@ -1,0 +1,875 @@
+{
+  "generated_at_utc": "2026-10-27T11:46:23.394168Z",
+  "summary": {
+    "total_pages_with_permalink": 17,
+    "visible_pages": 17,
+    "hidden_pages": 0,
+    "visible_pages_without_inbound_links": 0,
+    "visible_orphan_pages": 0,
+    "visible_pages_with_empty_branch_sections": 0,
+    "visible_pages_with_missing_parent_target": 0,
+    "branch_navigation_coverage_percent": 100.0,
+    "inline_internal_edge_count": 22,
+    "inline_internal_target_page_count": 12,
+    "visible_pages_gaining_inbound_from_inline_links": 0,
+    "visible_pages_without_inline_inbound_links": 5,
+    "visible_pages_with_inline_outbound_links": 10,
+    "visible_pages_without_inline_outbound_links": 7,
+    "average_inline_inbound_links_per_visible_page": 1.29,
+    "unresolved_inline_internal_target_count": 0,
+    "related_report_edge_count": 0,
+    "related_report_cross_root_edge_count": 0,
+    "related_report_target_page_count": 0,
+    "visible_pages_with_related_report_panel": 0,
+    "visible_pages_without_related_report_panel": 17,
+    "related_report_panel_coverage_percent": 0.0,
+    "average_related_report_links_per_visible_page": 0.0,
+    "unresolved_related_report_target_count": 0,
+    "sample_edge_count": 99
+  },
+  "samples": {
+    "visible_without_inbound_links": [],
+    "visible_orphan_pages": [],
+    "visible_empty_branch_sections": [],
+    "visible_missing_parent_target": [],
+    "visible_gaining_inbound_from_inline_links": [],
+    "visible_without_inline_inbound_links": [
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_index",
+        "title": "All Topics",
+        "permalink": "/ai-data-centre-elect-13a926-ai-data/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_index",
+        "title": "All Topics",
+        "permalink": "/ai-data-centre-elect-13a926-ai/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_index",
+        "title": "All Topics",
+        "permalink": "/ai-data-centre-elect-13a926-ai-0a08e0/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_index",
+        "title": "All Topics",
+        "permalink": "/ai-data-centre-elect-13a926-ai-training/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_index",
+        "title": "All Topics",
+        "permalink": "/ai-data-centre-elect-13a926-index/"
+      }
+    ],
+    "visible_without_inline_outbound_links": [
+      {
+        "basename": "AI_data_centre_elect_13a926",
+        "title": "Can Power Grids Keep Up With AI Growth?",
+        "permalink": "/ai-data-centre-electricity-demand/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_dry_vs_evaporative_c_220aeb",
+        "title": "Water vs Power",
+        "permalink": "/water-vs-power/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e",
+        "title": "Who Pays",
+        "permalink": "/who-pays/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_ai_grid_costs_househ_ab353b",
+        "title": "Household Grid Costs",
+        "permalink": "/household-grid-costs/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "title": "Grid Pressure",
+        "permalink": "/grid-pressure/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_ireland_data_centre_3259ad",
+        "title": "Ireland s Power",
+        "permalink": "/ireland-s-power/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_model_training_el_6f5c89",
+        "title": "Training Energy",
+        "permalink": "/training-energy/"
+      }
+    ],
+    "visible_without_related_report_panel": [
+      {
+        "basename": "AI_data_centre_elect_13a926",
+        "title": "Can Power Grids Keep Up With AI Growth?",
+        "permalink": "/ai-data-centre-electricity-demand/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "title": "Cooling Costs",
+        "permalink": "/cooling-costs/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_direct_chip_cooling_ce5eff",
+        "title": "Liquid Cooling Costs",
+        "permalink": "/liquid-cooling-costs/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_dry_vs_evaporative_c_220aeb",
+        "title": "Water vs Power",
+        "permalink": "/water-vs-power/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_index",
+        "title": "All Topics",
+        "permalink": "/ai-data-centre-elect-13a926-ai-data/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e",
+        "title": "Who Pays",
+        "permalink": "/who-pays/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_ai_grid_costs_househ_ab353b",
+        "title": "Household Grid Costs",
+        "permalink": "/household-grid-costs/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_index",
+        "title": "All Topics",
+        "permalink": "/ai-data-centre-elect-13a926-ai/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "title": "Grid Pressure",
+        "permalink": "/grid-pressure/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_dublin_data_centre_g_c69adf",
+        "title": "Dublin Grid Pressure",
+        "permalink": "/dublin-grid-pressure/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_index",
+        "title": "All Topics",
+        "permalink": "/ai-data-centre-elect-13a926-ai-0a08e0/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_ireland_data_centre_3259ad",
+        "title": "Ireland s Power",
+        "permalink": "/ireland-s-power/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "title": "AI Energy Use",
+        "permalink": "/ai-energy-use/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_chatbot_query_ele_3717cc",
+        "title": "Query Electricity",
+        "permalink": "/query-electricity/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_model_training_el_6f5c89",
+        "title": "Training Energy",
+        "permalink": "/training-energy/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_index",
+        "title": "All Topics",
+        "permalink": "/ai-data-centre-elect-13a926-ai-training/"
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_index",
+        "title": "All Topics",
+        "permalink": "/ai-data-centre-elect-13a926-index/"
+      }
+    ],
+    "top_inline_internal_targets": [
+      {
+        "basename": "AI_data_centre_elect_13a926",
+        "title": "Can Power Grids Keep Up With AI Growth?",
+        "permalink": "/ai-data-centre-electricity-demand/",
+        "inline_inbound_count": 4
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "title": "Cooling Costs",
+        "permalink": "/cooling-costs/",
+        "inline_inbound_count": 3
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "title": "Grid Pressure",
+        "permalink": "/grid-pressure/",
+        "inline_inbound_count": 3
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e",
+        "title": "Who Pays",
+        "permalink": "/who-pays/",
+        "inline_inbound_count": 2
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "title": "AI Energy Use",
+        "permalink": "/ai-energy-use/",
+        "inline_inbound_count": 2
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_model_training_el_6f5c89",
+        "title": "Training Energy",
+        "permalink": "/training-energy/",
+        "inline_inbound_count": 2
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_direct_chip_cooling_ce5eff",
+        "title": "Liquid Cooling Costs",
+        "permalink": "/liquid-cooling-costs/",
+        "inline_inbound_count": 1
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_dry_vs_evaporative_c_220aeb",
+        "title": "Water vs Power",
+        "permalink": "/water-vs-power/",
+        "inline_inbound_count": 1
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_ai_grid_costs_househ_ab353b",
+        "title": "Household Grid Costs",
+        "permalink": "/household-grid-costs/",
+        "inline_inbound_count": 1
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_dublin_data_centre_g_c69adf",
+        "title": "Dublin Grid Pressure",
+        "permalink": "/dublin-grid-pressure/",
+        "inline_inbound_count": 1
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_ireland_data_centre_3259ad",
+        "title": "Ireland s Power",
+        "permalink": "/ireland-s-power/",
+        "inline_inbound_count": 1
+      },
+      {
+        "basename": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_chatbot_query_ele_3717cc",
+        "title": "Query Electricity",
+        "permalink": "/query-electricity/",
+        "inline_inbound_count": 1
+      }
+    ],
+    "top_related_report_targets": [],
+    "unresolved_inline_internal_targets": [],
+    "unresolved_related_report_targets": [],
+    "edge_samples": [
+      {
+        "from": "AI_data_centre_elect_13a926",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "type": "child"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e",
+        "type": "child"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "type": "child"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "type": "child"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926",
+        "to": "AI_data_centre_elect_13a926_index",
+        "type": "child"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "parent"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "type": "sibling"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e",
+        "type": "sibling"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "type": "sibling"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_dublin_data_centre_g_c69adf",
+        "type": "child"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_index",
+        "type": "child"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_ireland_data_centre_3259ad",
+        "type": "child"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "parent"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e",
+        "type": "sibling"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "type": "sibling"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "type": "sibling"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_direct_chip_cooling_ce5eff",
+        "type": "child"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_dry_vs_evaporative_c_220aeb",
+        "type": "child"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_index",
+        "type": "child"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "parent"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "type": "sibling"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "type": "sibling"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "type": "sibling"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_ai_grid_costs_househ_ab353b",
+        "type": "child"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_index",
+        "type": "child"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "parent"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "type": "sibling"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e",
+        "type": "sibling"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "type": "sibling"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_chatbot_query_ele_3717cc",
+        "type": "child"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_model_training_el_6f5c89",
+        "type": "child"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_index",
+        "type": "child"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_ireland_data_centre_3259ad",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "type": "parent"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_ireland_data_centre_3259ad",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_dublin_data_centre_g_c69adf",
+        "type": "sibling"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_ireland_data_centre_3259ad",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_ireland_data_centre_3259ad",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_direct_chip_cooling_ce5eff",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "type": "parent"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_direct_chip_cooling_ce5eff",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_dry_vs_evaporative_c_220aeb",
+        "type": "sibling"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_direct_chip_cooling_ce5eff",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_direct_chip_cooling_ce5eff",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_dublin_data_centre_g_c69adf",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "type": "parent"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_dublin_data_centre_g_c69adf",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_ireland_data_centre_3259ad",
+        "type": "sibling"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_dublin_data_centre_g_c69adf",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_dublin_data_centre_g_c69adf",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_dry_vs_evaporative_c_220aeb",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "type": "parent"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_dry_vs_evaporative_c_220aeb",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_direct_chip_cooling_ce5eff",
+        "type": "sibling"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_dry_vs_evaporative_c_220aeb",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_dry_vs_evaporative_c_220aeb",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_ai_grid_costs_househ_ab353b",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e",
+        "type": "parent"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_ai_grid_costs_househ_ab353b",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_ai_grid_costs_househ_ab353b",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_chatbot_query_ele_3717cc",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "type": "parent"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_chatbot_query_ele_3717cc",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_model_training_el_6f5c89",
+        "type": "sibling"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_chatbot_query_ele_3717cc",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_chatbot_query_ele_3717cc",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_model_training_el_6f5c89",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "type": "parent"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_model_training_el_6f5c89",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_chatbot_query_ele_3717cc",
+        "type": "sibling"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_model_training_el_6f5c89",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_model_training_el_6f5c89",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_index",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "parent"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_index",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_index",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "type": "parent"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_index",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_index",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_index",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e",
+        "type": "parent"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_index",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_index",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_index",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "type": "parent"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_index",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_index",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_index",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "type": "parent"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_index",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_index",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "type": "ancestor"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_model_training_el_6f5c89",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_direct_chip_cooling_ce5eff",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_direct_chip_cooling_ce5eff",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_dublin_data_centre_g_c69adf",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_chatbot_query_ele_3717cc",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_index",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_index",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_index",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_index",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_index",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_index",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_index",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_direct_chip_cooling_ce5eff",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_index",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_dry_vs_evaporative_c_220aeb",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_index",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_index",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_ai_grid_costs_househ_ab353b",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_index",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_index",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_dublin_data_centre_g_c69adf",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_index",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_ireland_data_centre_3259ad",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_index",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_index",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_chatbot_query_ele_3717cc",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_index",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_model_training_el_6f5c89",
+        "type": "inline_internal"
+      }
+    ],
+    "inline_edge_samples": [
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_model_training_el_6f5c89",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_direct_chip_cooling_ce5eff",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_direct_chip_cooling_ce5eff",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_dublin_data_centre_g_c69adf",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_chatbot_query_ele_3717cc",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_index",
+        "to": "AI_data_centre_elect_13a926",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_index",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_index",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_index",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_index",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_index",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_index",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_direct_chip_cooling_ce5eff",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_index",
+        "to": "AI_data_centre_elect_13a926_ai_data_centre_cooli_6a026b_dry_vs_evaporative_c_220aeb",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_index",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_index",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_costs_992c1e_ai_grid_costs_househ_ab353b",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_index",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_index",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_dublin_data_centre_g_c69adf",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_index",
+        "to": "AI_data_centre_elect_13a926_ai_electricity_grid_c23fdb_ireland_data_centre_3259ad",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_index",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_index",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_chatbot_query_ele_3717cc",
+        "type": "inline_internal"
+      },
+      {
+        "from": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_index",
+        "to": "AI_data_centre_elect_13a926_ai_training_inferenc_88940a_ai_model_training_el_6f5c89",
+        "type": "inline_internal"
+      }
+    ],
+    "related_report_edge_samples": []
+  }
+}

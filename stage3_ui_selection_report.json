@@ -1,0 +1,55 @@
+{
+  "selection_strategy": "legacy-resolvers",
+  "ui_priority": "home-first",
+  "site_shape": {
+    "report_count": 12,
+    "max_level": 3,
+    "deep_report_count": 7,
+    "level_1_count": 1,
+    "level_counts": {
+      "1": 1,
+      "2": 4,
+      "3": 7
+    },
+    "max_children_any_node": 4,
+    "p90_children": 3,
+    "p90_topic_children": 4,
+    "avg_children": 2.2,
+    "primary_branch_count": 4,
+    "visible_nodes_depth_2": 5,
+    "visible_nodes_depth_3": 12,
+    "max_depth": 2,
+    "max_breadth": 7,
+    "breadth_by_depth": {
+      "0": 1,
+      "1": 4,
+      "2": 7
+    },
+    "p90_title_length": 20,
+    "root_density_tier": "balanced",
+    "top_branch_density_counts": {
+      "sparse": 0,
+      "balanced": 1,
+      "dense": 0,
+      "very-dense": 0
+    },
+    "long_title_branch_count": 0,
+    "single_root_tree": true,
+    "topic_labels": [
+      "Can Power Grids Keep Up With AI Growth?"
+    ]
+  },
+  "selected": {
+    "site_visual_identity": "signal-cobalt",
+    "site_visual_identity_source": "remote_model",
+    "site_visual_identity_confidence": "high",
+    "visual_profile": "atlas",
+    "layout_archetype": "atlas",
+    "home_layout_mode": "vertical",
+    "auto_home_layout_mode": "cluster",
+    "hierarchy_viz_mode": "tree-diagram",
+    "palette": "signal-cobalt",
+    "motif": "horizon"
+  },
+  "candidates": []
+}
