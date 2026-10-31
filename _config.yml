@@ -39,8 +39,8 @@ social_preview_audit_enabled: true
 social_preview_contact_sheet_enabled: true
 native_share_enabled: true
 article_schema_enabled: true
-baseurl: "/website-20261027_115145-ai-data-centre-ed"
-url: "https://isaac-sites.github.io"
+baseurl: ""
+url: "https://ai-costs.isaackoi.com"
 ui_priority: 'home-first'
 homepage_audience_mode: 'production'
 homepage_copy_policy: 'polished'
